@@ -64,8 +64,8 @@ console.log(4 < 9);
 
 var books = 3;
 console.log(4 < books);
-// YOU DO: Explain. This variable name is books, with a value of 3.  The statement is asking if 4 is greater than the value set to books.
-// This is true
+// YOU DO: Explain. This variable name is books, with a value of 3.  The statement is asking if 4 is less than the value set to books.
+// This is false
 
 var friends = 6;
 var siblings = 2;
@@ -77,8 +77,8 @@ var attendees = 9;
 var meals = 8;
 console.log(attendees != meals);
 // YOU DO: Explain.  The attendees variable has a value of 9, the meals variable has a value of 8.
-// The statement is asking if the two variables are not striclty equal to each other. 
-
+// The statement is asking if the two variables are not striclty equal to each other.
+// this statement is True
 
 // #-------------------
 // PART 3: Logical Operators
@@ -100,15 +100,23 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats);
+//statement is true
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark);
+//statement false
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark);
+//true
 
 // Determine if the dog loves to play and is a puppy
+console.log(lovesToPlay);
+//true
+if (age = 1) {
+  console.log("The dog is a puppy!");
+}
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: The final line of code asked us to determine the age of the dog.  If it is equal to 1, then it is a puppy.
