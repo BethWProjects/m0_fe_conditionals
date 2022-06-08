@@ -11,7 +11,7 @@
   // if it is snowy, print "coat"
   // if it is icy, print "yak traks"
 
-weather = "sunny"
+var weather = "sunny"
 
 if (weather === "sunny") {
   console.log("sunscreen");
@@ -76,7 +76,7 @@ if (cupsOfFlour === 5 && hasSauce === false);
 console.log("I cannot make pizza");
 }
 {
-  if (cupsOfFlour === 2 && hasSauce);
+if (cupsOfFlour === 2 && hasSauce);
 console.log("I can make pizza");
 }
 {if (cupsOfFlour === 3 && hasSauce);
