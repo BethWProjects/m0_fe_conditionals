@@ -64,12 +64,13 @@ console.log(4 < 9);
 
 var books = 3;
 console.log(4 < books);
-// YOU DO: Explain.
+// YOU DO: Explain. This variable name is books, with a value of 3.  The statement is asking if 4 is greater than the value set to books.
+// This is true
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// YOU DO: Explain.
+// YOU DO: Explain.  The name friend has a value of 6, and the name siblings 
 
 var attendees = 9;
 var meals = 8;
