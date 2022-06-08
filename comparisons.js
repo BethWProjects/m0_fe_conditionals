@@ -70,12 +70,14 @@ console.log(4 < books);
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// YOU DO: Explain.  The name friend has a value of 6, and the name siblings 
+// YOU DO: Explain.  The name friend has a value of 6, and the name siblings has a value of 2, the statement is asking if the friends value is greater than the siblings value.
+// this is true.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees != meals);
-// YOU DO: Explain.
+// YOU DO: Explain.  The attendees variable has a value of 9, the meals variable has a value of 8.
+// The statement is asking if the two variables are not striclty equal to each other. 
 
 
 // #-------------------
