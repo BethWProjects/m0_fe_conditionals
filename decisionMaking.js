@@ -23,7 +23,7 @@ console.log("2. Point it out to the bear?");
 console.log("3. Make a dash for the next room?");
 
 if (bearChoice === 1) {
-  "You offer the bear your " + bearClothing + " and the bear shows you a secret passage out!";
+  puts "You offer the bear your " + bearClothing + " and the bear shows you a secret passage out!";
 } else if (bearChoice === 2) {
   "You tell the bear the " + bearClothing + " is too small and it starts to cry!";
 } else if (bearChoice === 3) {
